@@ -1,0 +1,23 @@
+.widget {
+    flex: 0.2;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    max-height: 85vh;
+}
+
+.widget_header {
+    border-bottom: 1px solid lightgray;
+}
+
+.widget_header > h5 {
+    color: rgb(80,80,80);
+    padding: 10px;
+    font-size: 15px;
+    letter-spacing: 1.1px;
+}
