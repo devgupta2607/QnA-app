@@ -86,3 +86,140 @@
     border-radius: 20px;
     cursor: pointer;
 }
+
+.modal_title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    border-bottom: 1px solid rgba(187,187,187,0.5);
+}
+
+.modal_title > h5 {
+    color: gray;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.model_title > h5:hover {
+    color: #1c67da;
+}
+
+.modal_info {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.modal_info > p {
+    margin-left: 10px;
+    font-size: small;
+    color: gray;
+}
+.modal_scope {
+    display: flex;
+    align-items: center;
+    color: rgb(98,98,98);
+    padding: 5px;
+    background-color: rgb(230,230,230);
+    border-radius: 33px;
+    margin-left: 10px;
+}
+
+.modal_Field {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    flex: 1;
+}
+
+.modal_Field > .modal_fieldLink {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    color:gray;
+}
+
+.modal_Field > .modal_fieldLink > input {
+    flex: 1;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+}
+
+.modal_buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 260px;
+    margin-right: -20px;
+    border-top: 1px solid lightgray;
+}
+
+.modal_buttons > .cancel {
+    margin-left: auto;
+    border: none;
+    margin-top: 5px;
+    outline: none;
+    color: gray;
+    font-weight: 500;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 33px;
+    cursor: pointer;
+}
+
+.modal_buttons > .add {
+    border: none;
+    margin-top: 5px;
+    outline: none;
+    background: linear-gradient(90deg,#5e81f4,#1c67da);
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 33px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .qHeader_logo > img {
+        height: 50px;
+        /*margin-right: 20px;*/
+    }
+
+    .qHeader_icon > .MuiSvgIcon-root {
+        font-size: large;
+        padding: 5px 10px;
+    }
+
+    .qHeader_input {
+        width: 10%;
+    }
+
+    .qHeader_Rem {
+        margin-left: 5px;
+    }
+    .qHeader_Rem > .MuiSvgIcon-root {
+        font-size: large;
+        margin-left: 15px;
+    }
+
+    .qHeader_Rem > .MuiButton-root {
+        margin-left: 15px;
+    }
+
+    [placeholder] {
+        text-overflow: ellipsis;
+        overflow:hidden;
+    }
+
+    .qHeader_Rem > .qHeader_avatar >.MuiAvatar-root {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .qHeader_input > .MuiSvgIcon-root {
+        font-size: large;
+    }
+}

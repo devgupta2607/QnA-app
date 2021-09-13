@@ -8,7 +8,7 @@
     padding: 10px;
     border: 1px solid lightgray;
     border-radius: 5px;
-    max-height: 85vh;
+    height: auto;
 }
 
 .widget_header {
